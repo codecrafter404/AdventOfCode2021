@@ -2,18 +2,20 @@ package me._4o4.adventOfCode2021
 
 import me._4o4.adventOfCode2021.challenges.Challenge
 import me._4o4.adventOfCode2021.challenges.DayOne
+import me._4o4.adventOfCode2021.challenges.DayThree
 import me._4o4.adventOfCode2021.challenges.DayTwo
 import kotlin.system.exitProcess
 
 // [1-25]
-const val day = 2
+const val day = 3
 
 // [1;2]
 const val part = 2
 
-val challenges = listOf<Challenge>(
+val challenges = listOf(
     DayOne(),
-    DayTwo()
+    DayTwo(),
+    DayThree()
 )
 
 fun main() {
