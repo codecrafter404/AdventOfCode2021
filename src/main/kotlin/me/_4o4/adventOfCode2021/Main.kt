@@ -4,7 +4,7 @@ import me._4o4.adventOfCode2021.challenges.*
 import kotlin.system.exitProcess
 
 // [1-25]
-const val day = 4
+const val day = 5
 
 // [1;2]
 const val part = 2
@@ -13,7 +13,8 @@ val challenges = listOf(
     DayOne(),
     DayTwo(),
     DayThree(),
-    DayFour()
+    DayFour(),
+    DayFive()
 )
 
 fun main() {
